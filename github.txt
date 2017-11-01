@@ -52,4 +52,7 @@ F:\gitcurso>git reset --hard HASH
 F:\gitcurso>git reset --mixed HASH
 F:\gitcurso>git add Readme.md
 F:\gitcurso>git commit -m "Ultimo ultimo ultimo alteracao"
-F:\gitcurso>
+F:\gitcurso>git remote add origin https://github.com/goshiro84/gitredes.git
+F:\gitcurso>git push -u origin master
+F:\gitcurso>git add *
+F:\gitcurso>git commit -m "Arquivos de Redes"
