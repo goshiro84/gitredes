@@ -1,0 +1,9 @@
+Procedimento de Backup
+======================
+1 -  Pegar a fita
+2 - Colocar na Unidade XP23
+3 - Executar o script backup_exec.bat
+4 - Aguardar a conclusão (demora 3 horas)
+5 - Registra no sistema Help Backup
+6 - Ligar para a Iron Mountain para retirar a fita de backup
+7 - Trocar a fita pela nova

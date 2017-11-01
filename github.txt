@@ -1,0 +1,55 @@
+abrir cmd como administrador
+criar pasta
+F:\>mkdir gitcurso
+F:\>cd gitcurso
+F:\gitcurso>git config --global user.name "Gustavo Eyken"
+F:\gitcurso>git config --global user.mail 38012@alunos.bandtec.com.br
+F:\gitcurso>git config --list
+F:\gitcurso>git init
+F:\gitcurso>dir
+F:\gitcurso>dir /ah
+F:\gitcurso>cd .git
+F:\gitcurso\.git>dir
+F:\gitcurso\.git>type config
+F:\gitcurso\.git>type description
+F:\gitcurso\.git>cd objects
+F:\gitcurso\.git\objects>dir
+F:\gitcurso\.git\objects>cd \gitcurso
+F:\gitcurso>git status
+Criado um arquivo no notepad++ com nome Readme.md e salvo na raiz do gitcurso
+F:\gitcurso>git status
+F:\gitcurso>git add Readme.md
+F:\gitcurso>git status
+F:\gitcurso>git commit -m "Primeiro Commit"
+F:\gitcurso>git status
+F:\gitcurso>dir
+F:\gitcurso>dir /s
+F:\gitcurso>git log
+F:\gitcurso>git log --decorate
+F:\gitcurso>git log --author="Gustavo"
+F:\gitcurso>git shortlog
+F:\gitcurso>git shortlog -sn
+F:\gitcurso>git log --graph
+F:\gitcurso>git status
+F:\gitcurso>git diff
+F:\gitcurso>git add Readme.md
+F:\gitcurso>git commit -m "Segundo Commit"
+F:\gitcurso>git show b5367587379775ea3a5da4179c7fb45d81edc66e
+F:\gitcurso>git status
+F:\gitcurso>git diff
+F:\gitcurso>git checkout Readme.md
+F:\gitcurso>git status
+F:\gitcurso>type Readme.md
+F:\gitcurso>git reset HEAD
+F:\gitcurso>git checkout Readme.md
+F:\gitcurso>git commit -am "Ultimo Commit"
+F:\gitcurso>git reset --soft e102422cbf8172a40e78af91798ebb3980169889
+
+Tipos possíveis para resetar o commit:
+
+F:\gitcurso>git reset --soft HASH
+F:\gitcurso>git reset --hard HASH
+F:\gitcurso>git reset --mixed HASH
+F:\gitcurso>git add Readme.md
+F:\gitcurso>git commit -m "Ultimo ultimo ultimo alteracao"
+F:\gitcurso>
